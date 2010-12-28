@@ -64,7 +64,7 @@ public class CPFValidadorTest {
 	}
 
 	@Test
-	public void validarCPFValido() {
+	public void validarCPF() {
 
 		Assert.assertTrue(CPFValidador.isValido("378.388.824-78", true));
 		Assert.assertTrue(CPFValidador.isValido("37838882478", false));

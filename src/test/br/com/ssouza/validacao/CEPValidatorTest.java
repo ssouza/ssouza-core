@@ -67,7 +67,7 @@ public class CEPValidatorTest {
 	}
 
 	@Test
-	public void validarCEPValido() {
+	public void validarCEP() {
 
 		assertTrue(CEPValidador.isValido("40100-000", true));
 		assertTrue(CEPValidador.isValido("40100000", false));

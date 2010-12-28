@@ -64,7 +64,7 @@ public class CNPJValidadorTest {
 	}
 
 	@Test
-	public void validarCNPJValido() {
+	public void validarCNPJ() {
 
 		Assert.assertTrue(CNPJValidador.isValido("73.314.239/0001-00", true));
 		Assert.assertTrue(CNPJValidador.isValido("73314239000100", false));
