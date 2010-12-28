@@ -16,7 +16,7 @@ public final class StringHelper {
 	 * @return
 	 */
 	public static String removerNaoDigitos(String value) {
-		return value == null ? "" : value.replaceAll("\\D", "");
+		return value == null ? null : value.replaceAll("\\D", "");
 	}
 
 	/**

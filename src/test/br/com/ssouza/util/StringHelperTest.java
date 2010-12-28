@@ -3,6 +3,7 @@ package br.com.ssouza.util;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
@@ -12,8 +13,7 @@ public class StringHelperTest {
 	@Test
 	public void testRemoverNaoDigitosNulo() {
 		String retorno = StringHelper.removerNaoDigitos(null);
-		assertNotNull(retorno);
-		assertTrue(retorno.isEmpty());
+		assertNull(retorno);
 	}
 
 	@Test
@@ -25,10 +25,10 @@ public class StringHelperTest {
 
 	@Test
 	public void testRemoverNaoDigitosValido() {
-		String retorno = StringHelper.removerNaoDigitos("abc123#$%");
+		String retorno = StringHelper.removerNaoDigitos("abc123#$%45");
 		assertNotNull(retorno);
 		assertFalse(retorno.isEmpty());
-		assertEquals("123", retorno);
+		assertEquals("12345", retorno);
 	}
 
 	@Test(expected = NullPointerException.class)
