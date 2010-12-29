@@ -4,6 +4,7 @@ import java.text.MessageFormat;
 import java.util.ResourceBundle;
 
 import org.apache.commons.lang.ArrayUtils;
+import org.apache.commons.lang.BooleanUtils;
 import org.apache.commons.lang.StringUtils;
 import org.apache.commons.lang.math.NumberUtils;
 
@@ -42,6 +43,14 @@ public class ResourceBundleHelper {
 	 * @return
 	 */
 	public String getString(String key) {
+
+		if (key == null) {
+			throw new NullPointerException("A key não pode ser nula.");
+		}
+
+		if (key.isEmpty()) {
+			throw new IllegalArgumentException("A key não pode ser vazia.");
+		}
 
 		String message = "";
 
@@ -94,7 +103,8 @@ public class ResourceBundleHelper {
 	 *         <code>false</code>
 	 */
 	public boolean getBoolean(String key) {
-		return Constantes.TRUE.equalsIgnoreCase(getString(key));
+		Boolean retorno = BooleanUtils.toBooleanObject(getString(key));
+		return retorno == null ? false : retorno;
 	}
 
 }
