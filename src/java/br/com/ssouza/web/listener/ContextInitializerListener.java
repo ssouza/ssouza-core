@@ -26,7 +26,7 @@ public class ContextInitializerListener implements ServletContextListener {
 
 		if (log.isDebugEnabled()) {
 			log.debug("*******************************************************************");
-			log.debug("Framework Sérgio Souza, obteve o caminho real da aplicação web:");
+			log.debug("O SSouza Framework obteve o caminho real da aplicação web:");
 			log.debug(FileHelper.getRealPath());
 			log.debug("*******************************************************************");
 		}

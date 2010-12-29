@@ -31,7 +31,7 @@ public class ApplicationContextListener implements ServletContextListener {
 
 		if (log.isDebugEnabled()) {
 			log.debug("*******************************************************************");
-			log.debug("SSouza Framework inicializou o contexto da aplicação.");
+			log.debug("O SSouza Framework inicializou o contexto da aplicação.");
 			log.debug("*******************************************************************");
 		}
 	}
