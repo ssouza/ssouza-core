@@ -365,9 +365,9 @@ public final class EmailHelper {
 /**
  * Classe que define a autenticação SMTP.
  * 
- * @author <a href="mailto:sergio.lcs@hotmail.com">Sérgio Souza</a>
+ * @author <a href="mailto:sergio.lcs@gmail.com">Sérgio Souza</a>
  * @version 1.0
- * @since 26/03/2009
+ * @since Dec 29, 2010
  */
 class SSSMTPAuthenticator extends javax.mail.Authenticator {
 

@@ -7,9 +7,9 @@ import br.com.ssouza.util.Constantes;
 /**
  * Classe que define para o Hibernate o tipo 'Sim' ou 'Não' como boolean.
  * 
- * @author <a href="mailto:sergio.lcs@hotmail.com">Sérgio Souza</a>
+ * @author <a href="mailto:sergio.lcs@gmail.com">Sérgio Souza</a>
  * @version 1.0
- * @since 12/06/2009
+ * @since Dec 29, 2010
  */
 public class SimNaoType extends CharBooleanType {
 

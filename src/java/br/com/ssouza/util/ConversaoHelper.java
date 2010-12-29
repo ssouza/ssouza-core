@@ -14,9 +14,9 @@ import br.com.ssouza.web.struts.converter.DateConverter;
 /**
  * Classe que define métodos de registo de conversão para o Struts.
  * 
- * @author <a href="mailto:sergio.lcs@hotmail.com">Sérgio Souza</a>
+ * @author <a href="mailto:sergio.lcs@gmail.com">Sérgio Souza</a>
  * @version 1.0
- * @since 25/03/2009
+ * @since Dec 29, 2010
  */
 public final class ConversaoHelper {
 	/**
