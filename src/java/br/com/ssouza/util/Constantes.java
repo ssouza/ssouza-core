@@ -8,9 +8,13 @@ import java.util.Locale;
  * 
  * @author <a href="mailto:sergio.lcs@gmail.com">Sérgio Souza</a>
  * @version 1.0
- * @since Dec 28, 2010
+ * @since Dec 29, 2010
  */
 public final class Constantes {
+
+	private Constantes() {
+
+	}
 
 	/**
 	 * @return ISO-8859-1

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="framework-ssouza" default="develop-dist" basedir=".">
+<project name="ssouza-core" default="develop-dist" basedir=".">
 
 	<property file="build/build.properties" />
 
@@ -24,6 +24,11 @@
 		****************************
 	-->
 
+	<target name="create-dist">
+		<echo>Criando diretório dist...</echo>
+		<mkdir dir="${dist.dir}" />
+	</target>
+	
 	<target name="create-tmp">
 		<echo>Criando diretório tmp...</echo>
 		<mkdir dir="${tmp.dir}" />
@@ -45,6 +50,7 @@
 
 	<target name="dist-jar">
 		<antcall target="create-tmp" />
+		<antcall target="create-dist" />
 		<echo>Compilando o código fonte...</echo>
 		<javac srcdir="${src.dir}" destdir="${tmp.build.dir}" debug="true" optimize="true" failonerror="false" encoding="ISO-8859-1" target="1.6" verbose="false" source="1.6">
 			<classpath>

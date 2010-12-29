@@ -20,15 +20,19 @@ public class ResourceBundleHelper {
 
 	private ResourceBundle resourceBundle;
 
+	private ResourceBundleHelper(String baseName) {
+		resourceBundle = ResourceBundle.getBundle(baseName);
+	}
+
 	/**
-	 * Construtor
+	 * Construindo instancia
 	 * 
 	 * @param baseName
 	 *           - ex.: "resources.arquivoProperties", que está localizado dentro do
 	 *           CLASS_PATH\resources\arquivoProperties.properties
 	 */
-	public ResourceBundleHelper(String baseName) {
-		resourceBundle = ResourceBundle.getBundle(baseName);
+	public static ResourceBundleHelper getInst(String baseName) {
+		return new ResourceBundleHelper(baseName);
 	}
 
 	/**
