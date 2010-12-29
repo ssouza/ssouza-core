@@ -17,7 +17,7 @@ import br.com.ssouza.web.spring.persistence.RepositoryFactory;
  * @version 1.0
  * @since Dec 28, 2010
  */
-public class ApllicationContextListener implements ServletContextListener {
+public class ApplicationContextListener implements ServletContextListener {
 
 	@Override
 	public void contextInitialized(ServletContextEvent event) {

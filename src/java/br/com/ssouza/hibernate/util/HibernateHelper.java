@@ -1,4 +1,4 @@
-package br.com.ssouza.util;
+package br.com.ssouza.hibernate.util;
 
 import org.hibernate.proxy.HibernateProxy;
 

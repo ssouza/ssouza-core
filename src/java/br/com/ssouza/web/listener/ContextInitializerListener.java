@@ -1,6 +1,3 @@
-/**
- * 
- */
 package br.com.ssouza.web.listener;
 
 import javax.servlet.ServletContextEvent;
