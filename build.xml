@@ -28,7 +28,7 @@
 		<echo>Criando diretório dist...</echo>
 		<mkdir dir="${dist.dir}" />
 	</target>
-	
+
 	<target name="create-tmp">
 		<echo>Criando diretório tmp...</echo>
 		<mkdir dir="${tmp.dir}" />
