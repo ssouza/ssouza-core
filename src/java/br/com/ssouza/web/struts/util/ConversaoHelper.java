@@ -1,4 +1,4 @@
-package br.com.ssouza.util;
+package br.com.ssouza.web.struts.util;
 
 import java.math.BigDecimal;
 import java.util.Date;
@@ -8,6 +8,7 @@ import org.apache.commons.beanutils.converters.IntegerConverter;
 import org.apache.commons.beanutils.converters.LongConverter;
 import org.apache.commons.beanutils.converters.ShortConverter;
 
+import br.com.ssouza.util.Constantes;
 import br.com.ssouza.web.struts.converter.BigDecimalConverter;
 import br.com.ssouza.web.struts.converter.DateConverter;
 
