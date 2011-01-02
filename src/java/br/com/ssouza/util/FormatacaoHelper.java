@@ -7,7 +7,7 @@ package br.com.ssouza.util;
  * @version 1.0
  * @since Dec 28, 2010
  */
-public final class FormatHelper {
+public final class FormatacaoHelper {
 
 	private static final int TAMANHO_MAXIMO_CPF = 11;
 	private static final int TAMANHO_MAXIMO_CNPJ = 14;
