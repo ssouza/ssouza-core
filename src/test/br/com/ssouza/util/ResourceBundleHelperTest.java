@@ -33,6 +33,7 @@ public class ResourceBundleHelperTest {
 	public void validarString() {
 		Assert.assertEquals("", bundleHelper.getString("ssouza.string.vazia"));
 		Assert.assertEquals("ssouza", bundleHelper.getString("ssouza.string"));
+		Assert.assertEquals("ssouza", bundleHelper.getString("ssouza.string.com.espacos"));
 	}
 
 	@Test

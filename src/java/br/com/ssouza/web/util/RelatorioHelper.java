@@ -24,35 +24,47 @@ import br.com.ssouza.util.Constantes;
  */
 public final class RelatorioHelper {
 
-	public static void gerarPDF(HttpServletResponse response, Connection connection, Map<String, Object> map,
-			String reportFile, String reportName) {
+	public static void gerarPDF(HttpServletResponse response, Connection conexao, Map<String, Object> map,
+			String caminhoRelatorio, String nomeRelatorio) {
+
+		if (conexao == null) {
+			throw new NullPointerException("A conexão não pode ser nula.");
+		}
+
+		if (map == null) {
+			throw new NullPointerException("O map não pode ser nulo.");
+		}
+
+		if (caminhoRelatorio == null) {
+			throw new NullPointerException("O caminho para o relatório não pode ser nulo.");
+		}
 
 		try {
 
-			File file = new File(reportFile);
+			File file = new File(caminhoRelatorio);
 			if (!file.exists()) {
 				throw new SystemException("O relatório '" + file.getName() + "' não foi encontrado.");
 			}
 
-			if (StringUtils.isNotBlank(reportName)) {
-				reportName = " filename=" + reportName + ".pdf";
+			if (StringUtils.isNotBlank(nomeRelatorio)) {
+				nomeRelatorio = " filename=" + nomeRelatorio + ".pdf";
 			} else {
-				reportName = "";
+				nomeRelatorio = "";
 			}
 
 			byte[] bytes = null;
 
-			if (connection != null && !connection.isClosed()) {
+			if (!conexao.isClosed()) {
 
 				map.put(JRParameter.REPORT_LOCALE, Constantes.LOCALE_PT_BR);
 
-				bytes = JasperRunManager.runReportToPdf(file.getPath(), map, connection);
+				bytes = JasperRunManager.runReportToPdf(file.getPath(), map, conexao);
 
 				response.setContentType("application/pdf");
 				response.setHeader("Pragma", "");
 				response.setHeader("Cache-Control", "");
 				response.setHeader("Expires", "");
-				response.setHeader("Content-Disposition", "inline;" + reportName);
+				response.setHeader("Content-Disposition", "inline;" + nomeRelatorio);
 				response.setContentLength(bytes.length);
 
 				ServletOutputStream ouputStream = response.getOutputStream();
