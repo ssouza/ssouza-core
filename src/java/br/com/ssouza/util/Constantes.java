@@ -6,7 +6,7 @@ import java.util.Locale;
 /**
  * Classe que define diversas constantes.
  * 
- * @author <a href="mailto:sergio.lcs@gmail.com">Sérgio Souza</a>
+ * @author <a href="mailto:sergio.lcs@gmail.com">SÃ©rgio Souza</a>
  * @version 1.0
  * @since Dec 29, 2010
  */

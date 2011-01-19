@@ -1,9 +1,9 @@
 package br.com.ssouza.util;
 
 /**
- * Classe que define métodos de formatação de String.
+ * Classe que define mÃ©todos de formataÃ§Ã£o de String.
  * 
- * @author <a href="mailto:sergio.lcs@gmail.com">Sérgio Souza</a>
+ * @author <a href="mailto:sergio.lcs@gmail.com">SÃ©rgio Souza</a>
  * @version 1.0
  * @since Dec 28, 2010
  */
@@ -13,16 +13,16 @@ public final class FormatacaoHelper {
 	private static final int TAMANHO_MAXIMO_CNPJ = 14;
 
 	/**
-	 * Efetuar a formatação de um cpf para a sua máscara.
+	 * Efetuar a formataÃ§Ã£o de um cpf para a sua mÃªscara.
 	 * 
 	 * @param cpf
-	 * @return <code>ddd.ddd.ddd-dd</code>, onde "d" é um dígito decimal.
+	 * @return <code>ddd.ddd.ddd-dd</code>, onde "d" Ã© um dÃ­gito decimal.
 	 * @throws NullPointerException
 	 */
 	public static String cpfComMascara(String cpf) {
 
 		if (cpf == null) {
-			throw new NullPointerException("CPF não pode ser nulo");
+			throw new NullPointerException("CPF nÃ£o pode ser nulo");
 		}
 
 		cpf = StringHelper.removerNaoDigitos(cpf);
@@ -32,16 +32,16 @@ public final class FormatacaoHelper {
 	}
 
 	/**
-	 * Efetuar a formatação de um cnpj para a sua máscara.
+	 * Efetuar a formataÃ§Ã£o de um cnpj para a sua mÃªscara.
 	 * 
 	 * @param cnpj
-	 * @return <code>dd.ddd.ddd-dddd/dd</code>, onde "d" é um dígito decimal.
+	 * @return <code>dd.ddd.ddd-dddd/dd</code>, onde "d" Ã© um dÃ­gito decimal.
 	 * @throws NullPointerException
 	 */
 	public static String cnpjComMascara(String cnpj) {
 
 		if (cnpj == null) {
-			throw new NullPointerException("CNPJ não pode ser nulo");
+			throw new NullPointerException("CNPJ nÃ£o pode ser nulo");
 		}
 
 		cnpj = StringHelper.removerNaoDigitos(cnpj);
@@ -51,7 +51,7 @@ public final class FormatacaoHelper {
 	}
 
 	/**
-	 * Completa uma string com zeros a esquerda até completar o tamanho desejado.
+	 * Completa uma string com zeros a esquerda atÃ© completar o tamanho desejado.
 	 * 
 	 * @param valor
 	 * @param tamanho

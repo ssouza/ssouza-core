@@ -55,11 +55,11 @@ import br.com.ssouza.exception.SystemException;
  * 
  * mail.content.type=text/plain
  * 
- * mail.sender.name=SÈrgio Souza
+ * mail.sender.name=S√©rgio Souza
  * 
  * mail.sender.mail=contato@ssouza.com.br
  * 
- * @author <a href="mailto:sergio.lcs@gmail.com">SÈrgio Souza</a>
+ * @author <a href="mailto:sergio.lcs@gmail.com">S√©rgio Souza</a>
  * @version 1.0
  * @since Dec 29, 2010
  */
@@ -191,7 +191,7 @@ public final class EmailHelper {
 					transport.connect(host, port, username, password);
 
 					if (!transport.isConnected()) {
-						throw new SystemException("N„o foi possÌvel efetuar conex„o com o servidor SMTP.");
+						throw new SystemException("N√£o foi poss√≠vel efetuar conex√£o com o servidor SMTP.");
 					}
 
 					transport.sendMessage(mimeMessage, new Address[] { recipient });
@@ -363,9 +363,9 @@ public final class EmailHelper {
 }
 
 /**
- * Classe que define a autenticaÁ„o SMTP.
+ * Classe que define a autentica√ß√£o SMTP.
  * 
- * @author <a href="mailto:sergio.lcs@gmail.com">SÈrgio Souza</a>
+ * @author <a href="mailto:sergio.lcs@gmail.com">S√©rgio Souza</a>
  * @version 1.0
  * @since Dec 29, 2010
  */

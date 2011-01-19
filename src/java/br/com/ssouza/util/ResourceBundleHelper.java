@@ -13,7 +13,7 @@ import br.com.ssouza.exception.SystemException;
 /**
  * Classe que define acesso a um arquivo .PROPERTIES, mesmo que esteja dentro de um arquivo .JAR.
  * 
- * @author <a href="mailto:sergio.lcs@gmail.com">SÈrgio Souza</a>
+ * @author <a href="mailto:sergio.lcs@gmail.com">S√©rgio Souza</a>
  * @version 1.0
  * @since Dec 28, 2010
  */
@@ -29,7 +29,7 @@ public class ResourceBundleHelper {
 	 * Construindo instancia
 	 * 
 	 * @param baseName
-	 *           - ex.: "resources.arquivoProperties", que est· localizado dentro do
+	 *           - ex.: "resources.arquivoProperties", que est√° localizado dentro do
 	 *           CLASS_PATH\resources\arquivoProperties.properties
 	 */
 	public static ResourceBundleHelper getInst(String baseName) {
@@ -37,7 +37,7 @@ public class ResourceBundleHelper {
 	}
 
 	/**
-	 * ObtÈm uma mensagem.
+	 * Obt√©m uma mensagem.
 	 * 
 	 * @param key
 	 * @return
@@ -45,11 +45,11 @@ public class ResourceBundleHelper {
 	public String getString(String key) {
 
 		if (key == null) {
-			throw new NullPointerException("A key n„o pode ser nula.");
+			throw new NullPointerException("A key n√£o pode ser nula.");
 		}
 
 		if (key.isEmpty()) {
-			throw new IllegalArgumentException("A key n„o pode ser vazia.");
+			throw new IllegalArgumentException("A key n√£o pode ser vazia.");
 		}
 
 		String message = "";
@@ -79,7 +79,7 @@ public class ResourceBundleHelper {
 	}
 
 	/**
-	 * ObtÈm uma mensagem, setando uma valores nela.
+	 * Obt√©m uma mensagem, setando uma valores nela.
 	 * 
 	 * @param key
 	 * @param params
@@ -96,7 +96,7 @@ public class ResourceBundleHelper {
 	}
 
 	/**
-	 * ObtÈm um valor boleano.
+	 * Obt√©m um valor boleano.
 	 * 
 	 * @param key
 	 * @return <code>true</code><br>

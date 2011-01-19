@@ -28,11 +28,11 @@ public class CriptografiaHelperTest {
 	public void validarCriptografia() {
 		CriptografiaHelper helper = CriptografiaHelper.getInst(ENCRYPTER_KEY);
 
-		String encriptado = helper.encrypt("Sérgio");
+		String encriptado = helper.encrypt("SÃ©rgio");
 		Assert.assertNotNull(encriptado);
 
 		String decriptado = helper.decrypt(encriptado);
-		Assert.assertEquals("Sérgio", decriptado);
+		Assert.assertEquals("SÃ©rgio", decriptado);
 	}
 
 }

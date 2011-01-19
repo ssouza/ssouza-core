@@ -11,9 +11,9 @@ import org.apache.commons.beanutils.Converter;
 import br.com.ssouza.util.LogHelper;
 
 /**
- * Classe que define a convers„o de string em BigDecimal.
+ * Classe que define a convers√£o de string em BigDecimal.
  * 
- * @author <a href="mailto:sergio.lcs@gmail.com">SÈrgio Souza</a>
+ * @author <a href="mailto:sergio.lcs@gmail.com">S√©rgio Souza</a>
  * @version 1.0
  * @since Dec 28, 2010
  */
@@ -25,11 +25,11 @@ public class BigDecimalConverter implements Converter {
 	public BigDecimalConverter(String mascara, Locale locale) {
 
 		if (mascara == null) {
-			throw new NullPointerException("A mascara n„o pode ser nula.");
+			throw new NullPointerException("A mascara n√£o pode ser nula.");
 		}
 
 		if (locale == null) {
-			throw new NullPointerException("O locale n„o pode ser nulo.");
+			throw new NullPointerException("O locale n√£o pode ser nulo.");
 		}
 
 		this.mask = mascara;

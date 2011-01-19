@@ -9,9 +9,9 @@ import br.com.ssouza.util.LogHelper;
 import br.com.ssouza.util.FileHelper;
 
 /**
- * Classe que define o listener de configuração do real path da aplicação.
+ * Classe que define o listener de configuraÃ§Ã£o do real path da aplicaÃ§Ã£o.
  * 
- * @author <a href="mailto:sergio.lcs@gmail.com">Sérgio Souza</a>
+ * @author <a href="mailto:sergio.lcs@gmail.com">SÃ©rgio Souza</a>
  * @version 1.0
  * @since Dec 28, 2010
  */
@@ -26,7 +26,7 @@ public class ContextInitializerListener implements ServletContextListener {
 
 		if (log.isDebugEnabled()) {
 			log.debug("*******************************************************************");
-			log.debug("O SSouza Framework obteve o caminho real da aplicação web:");
+			log.debug("O SSouza Framework obteve o caminho real da aplicaÃ§Ã£o web:");
 			log.debug(FileHelper.getRealPath());
 			log.debug("*******************************************************************");
 		}

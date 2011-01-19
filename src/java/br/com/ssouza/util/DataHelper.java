@@ -4,9 +4,9 @@ import java.util.Calendar;
 import java.util.Date;
 
 /**
- * Classe que define métodos genéricos de Date.
+ * Classe que define mÃ©todos genÃ©ricos de Date.
  * 
- * @author <a href="mailto:sergio.lcs@gmail.com">Sérgio Souza</a>
+ * @author <a href="mailto:sergio.lcs@gmail.com">SÃ©rgio Souza</a>
  * @version 1.0
  * @since Dec 28, 2010
  */
@@ -50,7 +50,7 @@ public final class DataHelper {
 	public static final String PATTERN_YYYY_MM_DD_HH_MM_SS = "yyyy-MM-dd HH:mm:ss";
 
 	/**
-	 * Obtém a data atual.
+	 * ObtÃ©m a data atual.
 	 * 
 	 * @return Calendar
 	 */
@@ -59,7 +59,7 @@ public final class DataHelper {
 	}
 
 	/**
-	 * Define a data atual de mês
+	 * Define a data atual de mÃªs
 	 * 
 	 * @param dia
 	 * @param mes
@@ -82,7 +82,7 @@ public final class DataHelper {
 	}
 
 	/**
-	 * Define uma data específica
+	 * Define uma data especÃ­fica
 	 * 
 	 * @param mes
 	 *           <code>1</code> Janeiro<br>
@@ -105,7 +105,7 @@ public final class DataHelper {
 	}
 
 	/**
-	 * Obtém a primeira hora do dia.
+	 * ObtÃ©m a primeira hora do dia.
 	 * 
 	 * @param calendar
 	 * 
@@ -122,7 +122,7 @@ public final class DataHelper {
 	}
 
 	/**
-	 * Obtém a primeira hora do dia.
+	 * ObtÃ©m a primeira hora do dia.
 	 * 
 	 * @param dia
 	 * @param mes
@@ -147,7 +147,7 @@ public final class DataHelper {
 	}
 
 	/**
-	 * Obtém a última hora do dia.
+	 * ObtÃ©m a Ãºltima hora do dia.
 	 * 
 	 * @param dia
 	 * @param mes
@@ -172,7 +172,7 @@ public final class DataHelper {
 	}
 
 	/**
-	 * Obtém a última hora do dia.
+	 * ObtÃ©m a Ãºltima hora do dia.
 	 * 
 	 * @param calendar
 	 * 
@@ -189,7 +189,7 @@ public final class DataHelper {
 	}
 
 	/**
-	 * Obtém o primeiro dia do mês e ano.
+	 * ObtÃ©m o primeiro dia do mÃªs e ano.
 	 * 
 	 * @param mes
 	 *           <code>1</code> Janeiro<br>
@@ -204,7 +204,7 @@ public final class DataHelper {
 	}
 
 	/**
-	 * Obtém o primeiro dia do mês e ano.
+	 * ObtÃ©m o primeiro dia do mÃªs e ano.
 	 * 
 	 * @param mes
 	 *           <code>1</code> Janeiro<br>
@@ -227,7 +227,7 @@ public final class DataHelper {
 	}
 
 	/**
-	 * Obtém o último dia do mês e ano
+	 * ObtÃ©m o Ãºltimo dia do mÃªs e ano
 	 * 
 	 * @param mes
 	 *           <code>1</code> Janeiro<br>
@@ -247,7 +247,7 @@ public final class DataHelper {
 	}
 
 	/**
-	 * Obtém o último dia do mês e ano
+	 * ObtÃ©m o Ãºltimo dia do mÃªs e ano
 	 * 
 	 * @param mes
 	 *           <code>1</code> Janeiro<br>
@@ -272,12 +272,12 @@ public final class DataHelper {
 	}
 
 	/**
-	 * Verifica se duas datas são iguais.
+	 * Verifica se duas datas sÃ£o iguais.
 	 * 
 	 * @param data1
 	 * @param data2
 	 * @return <code>true</code> se as datas forem iguais.<br>
-	 *         <code>false</code> caso contrário.
+	 *         <code>false</code> caso contrÃ¡rio.
 	 */
 	public static boolean isIgual(Calendar calendar1, Calendar calendar2) {
 
@@ -300,12 +300,12 @@ public final class DataHelper {
 	}
 
 	/**
-	 * Verifica se duas datas são iguais.
+	 * Verifica se duas datas sÃ£o iguais.
 	 * 
 	 * @param data1
 	 * @param data2
 	 * @return <code>true</code> se as datas forem iguais.<br>
-	 *         <code>false</code> caso contrário.
+	 *         <code>false</code> caso contrÃ¡rio.
 	 */
 	public static boolean isIgual(Date date1, Date date2) {
 
@@ -327,12 +327,12 @@ public final class DataHelper {
 	}
 
 	/**
-	 * Verifica se duas datas são iguais.
+	 * Verifica se duas datas sÃ£o iguais.
 	 * 
 	 * @param data1
 	 * @param data2
 	 * @return <code>true</code> se as datas forem iguais.<br>
-	 *         <code>false</code> caso contrário.
+	 *         <code>false</code> caso contrÃ¡rio.
 	 */
 	public static boolean isDataIgual(Calendar calendar1, Calendar calendar2) {
 
@@ -351,12 +351,12 @@ public final class DataHelper {
 	}
 
 	/**
-	 * Verifica se duas datas são iguais.
+	 * Verifica se duas datas sÃ£o iguais.
 	 * 
 	 * @param data1
 	 * @param data2
 	 * @return <code>true</code> se as datas forem iguais.<br>
-	 *         <code>false</code> caso contrário.
+	 *         <code>false</code> caso contrÃ¡rio.
 	 */
 	public static boolean isDataIgual(Date date1, Date date2) {
 
@@ -378,24 +378,24 @@ public final class DataHelper {
 	}
 
 	/**
-	 * Verifica se a data de início é menor que a data fim.
+	 * Verifica se a data de inÃ­cio Ã© menor que a data fim.
 	 * 
 	 * @param dataInicio
 	 * @param dataFim
-	 * @return <code>true</code> se a data de início é menor que a data fim.<br>
-	 *         <code>false</code> se o valor é nulo ou zero.
+	 * @return <code>true</code> se a data de inÃ­cio Ã© menor que a data fim.<br>
+	 *         <code>false</code> se o valor Ã© nulo ou zero.
 	 */
 	public static boolean isMenorQue(Calendar dataInicio, Calendar dataFim) {
 		return dataInicio.before(dataFim);
 	}
 
 	/**
-	 * Verifica se a data de início é menor ou igual que a data fim.
+	 * Verifica se a data de inÃ­cio Ã© menor ou igual que a data fim.
 	 * 
 	 * @param dataInicio
 	 * @param dataFim
-	 * @return <code>true</code> se a data de início é menor ou igual que a data fim.<br>
-	 *         <code>false</code> se o valor é nulo ou zero.
+	 * @return <code>true</code> se a data de inÃ­cio Ã© menor ou igual que a data fim.<br>
+	 *         <code>false</code> se o valor Ã© nulo ou zero.
 	 */
 	public static boolean isMenorOuIgualQue(Calendar dataInicio, Calendar dataFim) {
 		return !dataFim.before(dataInicio);

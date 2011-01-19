@@ -9,9 +9,9 @@ import org.hibernate.cfg.Configuration;
 import br.com.ssouza.util.Constantes;
 
 /**
- * Classe que define as configuraÁıes da sess„o e da transaÁ„o do Hibernate.
+ * Classe que define as configura√ß√µes da sess√£o e da transa√ß√£o do Hibernate.
  * 
- * @author <a href="mailto:sergio.lcs@gmail.com">SÈrgio Souza</a>
+ * @author <a href="mailto:sergio.lcs@gmail.com">S√©rgio Souza</a>
  * @version 1.0
  * @since Dec 28, 2010
  */
@@ -33,7 +33,7 @@ public class TransacaoHelper {
 	}
 
 	/**
-	 * MÈtodo que cria uma sess„o.
+	 * M√©todo que cria uma sess√£o.
 	 * 
 	 * @return Session
 	 * @throws HibernateException
@@ -47,7 +47,7 @@ public class TransacaoHelper {
 	}
 
 	/**
-	 * MÈtodo que fecha a sess„o, caso ela ainda esteja aberta.
+	 * M√©todo que fecha a sess√£o, caso ela ainda esteja aberta.
 	 * 
 	 * @throws HibernateException
 	 */
@@ -60,7 +60,7 @@ public class TransacaoHelper {
 	}
 
 	/**
-	 * MÈtodo que inicializa uma transaÁ„o.
+	 * M√©todo que inicializa uma transa√ß√£o.
 	 * 
 	 * @throws HibernateException
 	 */
@@ -70,10 +70,10 @@ public class TransacaoHelper {
 	}
 
 	/**
-	 * MÈtodo que verifica se a transaÁ„o est· ativa.
+	 * M√©todo que verifica se a transa√ß√£o est√° ativa.
 	 * 
-	 * @return <code>true</code> se a transaÁ„o estiver ativa.<br>
-	 *         <code>false</code> caso contr·rio.
+	 * @return <code>true</code> se a transa√ß√£o estiver ativa.<br>
+	 *         <code>false</code> caso contr√°rio.
 	 */
 	public static boolean isActive() {
 		Transaction transaction = getSession().beginTransaction();
@@ -81,7 +81,7 @@ public class TransacaoHelper {
 	}
 
 	/**
-	 * MÈtodo que efetiva uma transaÁ„o.
+	 * M√©todo que efetiva uma transa√ß√£o.
 	 * 
 	 * @throws HibernateException
 	 */
@@ -94,7 +94,7 @@ public class TransacaoHelper {
 	}
 
 	/**
-	 * MÈtodo que desfaz uma transaÁ„o.
+	 * M√©todo que desfaz uma transa√ß√£o.
 	 * 
 	 * @throws HibernateException
 	 */

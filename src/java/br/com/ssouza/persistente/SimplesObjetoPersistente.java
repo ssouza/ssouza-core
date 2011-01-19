@@ -7,7 +7,7 @@ import org.apache.commons.lang.builder.HashCodeBuilder;
 /**
  * Classe que define para todos os objetos uma chave simples.
  * 
- * @author <a href="mailto:sergio.lcs@gmail.com">Sérgio Souza</a>
+ * @author <a href="mailto:sergio.lcs@gmail.com">SÃ©rgio Souza</a>
  * @version 1.0
  * @since Dec 28, 2010
  */

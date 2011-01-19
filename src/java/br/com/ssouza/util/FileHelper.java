@@ -3,9 +3,9 @@ package br.com.ssouza.util;
 import org.apache.commons.lang.Validate;
 
 /**
- * Classe que define mÈtodos genÈricos de arquivo.
+ * Classe que define m√©todos gen√©ricos de arquivo.
  * 
- * @author <a href="mailto:sergio.lcs@gmail.com">SÈrgio Souza</a>
+ * @author <a href="mailto:sergio.lcs@gmail.com">S√©rgio Souza</a>
  * @version 1.0
  * @since Dec 28, 2010
  */
@@ -20,7 +20,7 @@ public final class FileHelper {
 	 */
 	public static String getRealPath() {
 
-		Validate.notNull(realPath, "O ContextInitializerListener.class n„o est· definido no web.xml");
+		Validate.notNull(realPath, "O ContextInitializerListener.class n√£o est√° definido no web.xml");
 
 		return realPath;
 	}
@@ -34,7 +34,7 @@ public final class FileHelper {
 	}
 
 	/**
-	 * ObtÈm uma propriedade do sistema.
+	 * Obt√©m uma propriedade do sistema.
 	 * 
 	 * @param property
 	 * @return

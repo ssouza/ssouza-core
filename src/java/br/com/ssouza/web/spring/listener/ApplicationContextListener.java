@@ -11,9 +11,9 @@ import br.com.ssouza.util.LogHelper;
 import br.com.ssouza.web.spring.persistence.RepositoryFactory;
 
 /**
- * Classe que define o listener de configuração do contexto da aplicação.
+ * Classe que define o listener de configuraÃ§Ã£o do contexto da aplicaÃ§Ã£o.
  * 
- * @author <a href="mailto:sergio.lcs@gmail.com">Sérgio Souza</a>
+ * @author <a href="mailto:sergio.lcs@gmail.com">SÃ©rgio Souza</a>
  * @version 1.0
  * @since Dec 28, 2010
  */
@@ -31,7 +31,7 @@ public class ApplicationContextListener implements ServletContextListener {
 
 		if (log.isDebugEnabled()) {
 			log.debug("*******************************************************************");
-			log.debug("O SSouza Framework inicializou o contexto da aplicação.");
+			log.debug("O SSouza Framework inicializou o contexto da aplicaÃ§Ã£o.");
 			log.debug("*******************************************************************");
 		}
 	}

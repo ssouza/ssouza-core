@@ -5,9 +5,9 @@ import java.util.regex.Pattern;
 import br.com.ssouza.util.StringHelper;
 
 /**
- * Classe que define a validaÁ„o de um CNPJ.
+ * Classe que define a valida√ß√£o de um CNPJ.
  * 
- * @author <a href="mailto:sergio.lcs@gmail.com">SÈrgio Souza</a>
+ * @author <a href="mailto:sergio.lcs@gmail.com">S√©rgio Souza</a>
  * @version 1.0
  * @since Dec 28, 2010
  */
@@ -26,8 +26,8 @@ public final class CNPJValidador {
 	 * 
 	 * @param cnpj
 	 * @param formatado
-	 * @return <code>true</code> se o CNPJ for v·lido.<br>
-	 *         <code>false</code> caso contr·rio.
+	 * @return <code>true</code> se o CNPJ for v√°lido.<br>
+	 *         <code>false</code> caso contr√°rio.
 	 */
 	public static boolean isValido(String cnpj, boolean formatado) {
 

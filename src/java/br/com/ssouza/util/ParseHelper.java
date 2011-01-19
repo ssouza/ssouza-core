@@ -9,16 +9,16 @@ import java.util.Date;
 import org.apache.commons.lang.StringUtils;
 
 /**
- * Classe que define mÈtodos genÈricos de convers„o de tipos.
+ * Classe que define m√©todos gen√©ricos de convers√£o de tipos.
  * 
- * @author <a href="mailto:sergio.lcs@gmail.com">SÈrgio Souza</a>
+ * @author <a href="mailto:sergio.lcs@gmail.com">S√©rgio Souza</a>
  * @version 1.0
  * @since Dec 28, 2010
  */
 public final class ParseHelper {
 
 	/**
-	 * MÈtodo que efetua a convers„o de Date em String.
+	 * M√©todo que efetua a convers√£o de Date em String.
 	 * 
 	 * @param data
 	 * @param padrao
@@ -35,7 +35,7 @@ public final class ParseHelper {
 	}
 
 	/**
-	 * MÈtodo que efetua a convers„o de String em Date.
+	 * M√©todo que efetua a convers√£o de String em Date.
 	 * 
 	 * @param data
 	 * @param padrao

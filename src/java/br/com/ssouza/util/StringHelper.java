@@ -1,16 +1,16 @@
 package br.com.ssouza.util;
 
 /**
- * Classe que define métodos para tratamento de strings.
+ * Classe que define mÃ©todos para tratamento de strings.
  * 
- * @author <a href="mailto:sergio.lcs@gmail.com">Sérgio Souza</a>
+ * @author <a href="mailto:sergio.lcs@gmail.com">SÃ©rgio Souza</a>
  * @version 1.0
  * @since Dec 27, 2010
  */
 public final class StringHelper {
 
 	/**
-	 * Remove tudo que não é número da string.
+	 * Remove tudo que nÃ£o Ã© nÃºmero da string.
 	 * 
 	 * @param value
 	 * @return
@@ -20,7 +20,7 @@ public final class StringHelper {
 	}
 
 	/**
-	 * Verifica se o valor passado é uma sequencia numérica
+	 * Verifica se o valor passado Ã© uma sequencia numÃ©rica
 	 * 
 	 * @param value
 	 * @return

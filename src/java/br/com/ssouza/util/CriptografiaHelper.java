@@ -9,9 +9,9 @@ import sun.misc.BASE64Encoder;
 import br.com.ssouza.exception.SystemException;
 
 /**
- * Classe que define métodos de des/criptografia.
+ * Classe que define mÃ©todos de des/criptografia.
  * 
- * @author <a href="mailto:sergio.lcs@gmail.com">Sérgio Souza</a>
+ * @author <a href="mailto:sergio.lcs@gmail.com">SÃ©rgio Souza</a>
  * @version 1.0
  * @since Dec 29, 2010
  */
@@ -41,7 +41,7 @@ public final class CriptografiaHelper {
 	}
 
 	/**
-	 * Método que criptografa um valor.
+	 * MÃ©todo que criptografa um valor.
 	 * 
 	 * @param value
 	 * @return String
@@ -58,7 +58,7 @@ public final class CriptografiaHelper {
 	}
 
 	/**
-	 * Método que descriptografa um valor criptografado.
+	 * MÃ©todo que descriptografa um valor criptografado.
 	 * 
 	 * @param value
 	 * @return String

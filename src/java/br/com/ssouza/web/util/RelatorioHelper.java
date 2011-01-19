@@ -16,9 +16,9 @@ import br.com.ssouza.exception.SystemException;
 import br.com.ssouza.util.Constantes;
 
 /**
- * Classe que define a geração de relatórios pelo JasperReports.
+ * Classe que define a geraÃ§Ã£o de relatÃ³rios pelo JasperReports.
  * 
- * @author <a href="mailto:sergio.lcs@gmail.com">Sérgio Souza</a>
+ * @author <a href="mailto:sergio.lcs@gmail.com">SÃ©rgio Souza</a>
  * @version 1.0
  * @since Dec 28, 2010
  */
@@ -28,22 +28,22 @@ public final class RelatorioHelper {
 			String caminhoRelatorio, String nomeRelatorio) {
 
 		if (conexao == null) {
-			throw new NullPointerException("A conexão não pode ser nula.");
+			throw new NullPointerException("A conexÃ£o nÃ£o pode ser nula.");
 		}
 
 		if (map == null) {
-			throw new NullPointerException("O map não pode ser nulo.");
+			throw new NullPointerException("O map nÃ£o pode ser nulo.");
 		}
 
 		if (caminhoRelatorio == null) {
-			throw new NullPointerException("O caminho para o relatório não pode ser nulo.");
+			throw new NullPointerException("O caminho para o relatÃ³rio nÃ£o pode ser nulo.");
 		}
 
 		try {
 
 			File file = new File(caminhoRelatorio);
 			if (!file.exists()) {
-				throw new SystemException("O relatório '" + file.getName() + "' não foi encontrado.");
+				throw new SystemException("O relatÃ³rio '" + file.getName() + "' nÃ£o foi encontrado.");
 			}
 
 			if (StringUtils.isNotBlank(nomeRelatorio)) {
@@ -73,8 +73,8 @@ public final class RelatorioHelper {
 				ouputStream.close();
 
 			} else {
-				throw new SystemException("Não foi possível obter a conexão com o "
-						+ "Banco de Dados para a geração do Relatório.");
+				throw new SystemException("NÃ£o foi possÃ­vel obter a conexÃ£o com o "
+						+ "Banco de Dados para a geraÃ§Ã£o do RelatÃ³rio.");
 			}
 
 		} catch (Exception e) {

@@ -11,9 +11,9 @@ import br.com.ssouza.util.DataHelper;
 import br.com.ssouza.validacao.DataValidador;
 
 /**
- * Classe que define a convers„o de string em Data.
+ * Classe que define a convers√£o de string em Data.
  * 
- * @author <a href="mailto:sergio.lcs@gmail.com">SÈrgio Souza</a>
+ * @author <a href="mailto:sergio.lcs@gmail.com">S√©rgio Souza</a>
  * @version 1.0
  * @since Dec 28, 2010
  */

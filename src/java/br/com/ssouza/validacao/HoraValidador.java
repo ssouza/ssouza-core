@@ -5,9 +5,9 @@ import java.util.regex.Pattern;
 import org.apache.commons.lang.math.NumberUtils;
 
 /**
- * Classe que define a validaÁ„o de um Hor·rio.
+ * Classe que define a valida√ß√£o de um Hor√°rio.
  * 
- * @author <a href="mailto:sergio.lcs@gmail.com">SÈrgio Souza</a>
+ * @author <a href="mailto:sergio.lcs@gmail.com">S√©rgio Souza</a>
  * @version 1.0
  * @since Dec 28, 2010
  */
@@ -24,12 +24,12 @@ public final class HoraValidador {
 	}
 
 	/**
-	 * Valida de acordo com as respectivas regras de uma Hor·rio.
+	 * Valida de acordo com as respectivas regras de uma Hor√°rio.
 	 * 
 	 * @param horas
-	 *           os formatos aceitos s„o "dd:dd" ou "dd:dd:dd", onde "d" È um dÌgito decimal.
-	 * @return <code>true</code> se o Hor·rio for v·lido.<br>
-	 *         <code>false</code> caso contr·rio.
+	 *           os formatos aceitos s√£o "dd:dd" ou "dd:dd:dd", onde "d"√©um d√≠gito decimal.
+	 * @return <code>true</code> se o Hor√°rio for v√°lido.<br>
+	 *         <code>false</code> caso contr√°rio.
 	 */
 	public static boolean isValido(String horas) {
 

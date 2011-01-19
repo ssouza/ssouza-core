@@ -7,9 +7,9 @@ import org.apache.commons.lang.math.NumberUtils;
 import br.com.ssouza.util.StringHelper;
 
 /**
- * Classe que define a validaÁ„o de um Telefone.
+ * Classe que define a valida√ß√£o de um Telefone.
  * 
- * @author <a href="mailto:sergio.lcs@gmail.com">SÈrgio Souza</a>
+ * @author <a href="mailto:sergio.lcs@gmail.com">S√©rgio Souza</a>
  * @version 1.0
  * @since Dec 28, 2010
  */
@@ -27,9 +27,9 @@ public final class TelefoneValidador {
 	 * Valida de acordo com as respectivas regras de um Telefone.
 	 * 
 	 * @param fone
-	 *           ex.: "(dd)dddd-dddd" ou "(dd) dddd-dddd", onde "d" È um dÌgito decimal.
-	 * @return <code>true</code> se o Telefone for v·lido.<br>
-	 *         <code>false</code> caso contr·rio.
+	 *           ex.: "(dd)dddd-dddd" ou "(dd) dddd-dddd", onde "d"√©um d√≠gito decimal.
+	 * @return <code>true</code> se o Telefone for v√°lido.<br>
+	 *         <code>false</code> caso contr√°rio.
 	 */
 	public static boolean isValido(String fone) {
 

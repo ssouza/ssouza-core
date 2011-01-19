@@ -1,9 +1,9 @@
 package br.com.ssouza.util;
 
 /**
- * Classe que define constantes genéricas de navegação.
+ * Classe que define constantes genÃ©ricas de navegaÃ§Ã£o.
  * 
- * @author <a href="mailto:sergio.lcs@gmail.com">Sérgio Souza</a>
+ * @author <a href="mailto:sergio.lcs@gmail.com">SÃ©rgio Souza</a>
  * @version 1.0
  * @since Dec 29, 2010
  */

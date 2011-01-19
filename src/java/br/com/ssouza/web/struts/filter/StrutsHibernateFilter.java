@@ -13,9 +13,9 @@ import br.com.ssouza.util.LogHelper;
 import br.com.ssouza.web.struts.util.TransacaoHelper;
 
 /**
- * Classe que define o filtro de transaÁıes do hibernate.
+ * Classe que define o filtro de transa√ß√µes do hibernate.
  * 
- * @author <a href="mailto:sergio.lcs@gmail.com">SÈrgio Souza</a>
+ * @author <a href="mailto:sergio.lcs@gmail.com">S√©rgio Souza</a>
  * @version 1.0
  * @since Dec 28, 2010
  */
@@ -61,7 +61,7 @@ public class StrutsHibernateFilter implements Filter {
 		if (log.isDebugEnabled()) {
 			log.info("*********************************************** ");
 			log.info("O StrutsHibernateFilter foi inicializado pelo SSouza Framework, "
-					+ "agora uma sess„o ser· aberta/fechada para cada requisiÁ„o.");
+					+ "agora uma sess√£o ser√° aberta/fechada para cada requisi√ß√£o.");
 			log.info("*********************************************** ");
 		}
 	}

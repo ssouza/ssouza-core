@@ -5,9 +5,9 @@ import java.util.regex.Pattern;
 import br.com.ssouza.util.StringHelper;
 
 /**
- * Classe que define a validaÁ„o de um CEP.
+ * Classe que define a valida√ß√£o de um CEP.
  * 
- * @author <a href="mailto:sergio.lcs@gmail.com">SÈrgio Souza</a>
+ * @author <a href="mailto:sergio.lcs@gmail.com">S√©rgio Souza</a>
  * @version 1.0
  * @since Dec 28, 2010
  */
@@ -26,8 +26,8 @@ public final class CEPValidador {
 	 * 
 	 * @param cep
 	 * @param formatado
-	 * @return <code>true</code> se o CEP for v·lido.<br>
-	 *         <code>false</code> caso contr·rio.
+	 * @return <code>true</code> se o CEP for v√°lido.<br>
+	 *         <code>false</code> caso contr√°rio.
 	 */
 	public static boolean isValido(String cep, boolean formatado) {
 

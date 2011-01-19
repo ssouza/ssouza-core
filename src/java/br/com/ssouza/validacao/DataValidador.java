@@ -6,9 +6,9 @@ import org.apache.commons.lang.math.NumberUtils;
 import br.com.ssouza.util.ParseHelper;
 
 /**
- * Classe que define a validaÁ„o de uma Data.
+ * Classe que define a valida√ß√£o de uma Data.
  * 
- * @author <a href="mailto:sergio.lcs@gmail.com">SÈrgio Souza</a>
+ * @author <a href="mailto:sergio.lcs@gmail.com">S√©rgio Souza</a>
  * @version 1.0
  * @since Dec 28, 2010
  */
@@ -26,9 +26,9 @@ public final class DataValidador {
 	 * Valida de acordo com as respectivas regras de uma Data.
 	 * 
 	 * @param data
-	 *           formato aceito È "dd/MM/yyyy". E ano maior que 1900.
-	 * @return <code>true</code> se a Data for v·lido.<br>
-	 *         <code>false</code> caso contr·rio.
+	 *           formato aceito√©"dd/MM/yyyy". E ano maior que 1900.
+	 * @return <code>true</code> se a Data for v√°lido.<br>
+	 *         <code>false</code> caso contr√°rio.
 	 */
 	public static boolean isValido(String data) {
 
